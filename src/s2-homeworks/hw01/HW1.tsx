@@ -11,7 +11,7 @@ import avatar from './1319832745_0_6065c_b70de565_l.jpg'
 * 3 - в файле Message.tsx отобразить приходящие данные
 * 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx
 * 5 - сделать стили в соответствии с дизайном
-* */
+*/
 
 // нужно создать правильный тип вместо any
 export type MessageType = {
@@ -35,7 +35,7 @@ export const message0: MessageType = {
     },
     message: {
         text: 'Hello, she didn’t do anything and rested all day, how are you?', // можно менять
-        time: '22:00', // можно менять
+        time: '09:01', // можно менять
     },
 }
 export const friendMessage0: MessageType = {
@@ -45,8 +45,8 @@ export const friendMessage0: MessageType = {
         name: 'Pitt', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
-        time: '22:00', // можно менять
+        text: 'Hello, how are you, what did you do yesterday?', // можно менять
+        time: '09:21', // можно менять
     },
 }
 
@@ -60,7 +60,6 @@ const HW1 = () => {
                     <Message message={message0} />
                     <FriendMessage message={friendMessage0} />
                 </div>
-
                 {/*для автоматической проверки дз (не менять)*/}
                 <MessageSender M={Message} />
             </div>

@@ -4,10 +4,9 @@
 }
 
 .imageAndText {
-    height: 336px;
+    height: 101px;
     width: 1280px;
     background-color: red;
-
     color: green;
 }
 
@@ -34,24 +33,33 @@
     width: 0;
     height: 0;
     left: 511px;
-    top: 35.5px;
+    top: 35px;
     border-bottom: 25px solid #0066CC;
     border-right: 30px solid transparent;
 }
 
 .name {
     margin-left: 462px;
+    font-size: 18px;
     color: white;
 }
 
 .messageText {
     margin-left: 13px;
-    font-size: 14.5px;
     line-height: 19px;
+    font-size: 14px;
+    margin-top: 10px;
     color: white;
 }
 
 .time {
-position: absolute;
-color: aquamarine;
+    position: absolute;
+    font-size: 10px;
+    color: #000000;
+    margin-top: -250px;
+    margin-left: 1185px
+}
+
+.friendMessage{
+    background-color: #cc9c00;
 }
