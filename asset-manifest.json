@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/it-kamasutra-dz/static/css/main.b6278116.css",
-    "main.js": "/it-kamasutra-dz/static/js/main.9388609c.js",
+    "main.js": "/it-kamasutra-dz/static/js/main.8962790b.js",
     "static/js/787.04a14975.chunk.js": "/it-kamasutra-dz/static/js/787.04a14975.chunk.js",
     "index.html": "/it-kamasutra-dz/index.html",
     "main.b6278116.css.map": "/it-kamasutra-dz/static/css/main.b6278116.css.map",
-    "main.9388609c.js.map": "/it-kamasutra-dz/static/js/main.9388609c.js.map",
+    "main.8962790b.js.map": "/it-kamasutra-dz/static/js/main.8962790b.js.map",
     "787.04a14975.chunk.js.map": "/it-kamasutra-dz/static/js/787.04a14975.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6278116.css",
-    "static/js/main.9388609c.js"
+    "static/js/main.8962790b.js"
   ]
 }
