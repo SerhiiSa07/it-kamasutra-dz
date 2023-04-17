@@ -1,11 +1,19 @@
 .App {
     --header_height: 60px;
+
 }
 
 .hw {
-
+    display: flex;
+    width: 50px;
+    padding-top: 50px;
+    padding-left: 40%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 300px;
 }
-
 .hwTitle {
 
 }
+
