@@ -12,20 +12,27 @@
     padding: 10px;
 }
 .error {
-    color: red;
+
 }
 
 .input {
-
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
 }
 
 .inputClass:focus {
-    border: 1px solid #68d303;
-    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
 }
 
 .errorInput {
-
+    border: 1px solid red;
+    border-radius: 5px;
+    outline: red;
 }
 
 .button {

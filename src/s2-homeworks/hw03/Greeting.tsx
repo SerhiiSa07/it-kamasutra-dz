@@ -1,15 +1,15 @@
 import React, {
-    ChangeEventHandler,
-    KeyboardEventHandler,
+    ChangeEvent,
+    KeyboardEvent
 } from 'react'
 import s from './Greeting.module.css'
 
 type GreetingPropsType = {
     name:  string // need to fix any
-    setNameCallback: ChangeEventHandler<HTMLInputElement> // need to fix any
+    setNameCallback: (e:ChangeEvent<HTMLInputElement>) => void// need to fix any
     addUser: () => void // need to fix any
     onBlur: () => void  // need to fix any
-    onEnter: KeyboardEventHandler<HTMLInputElement>// need to fix any
+    onEnter: (e: KeyboardEvent<HTMLInputElement>) => void// need to fix any
     error: string // need to fix any
     totalUsers: number // need to fix any
     lastUserName?: string // need to fix any
@@ -44,9 +44,9 @@ const Greeting: React.FC<GreetingPropsType> = (
                     <input
                         id={'hw3-input'}
                         value={name}
-                        onChange={(e) => setNameCallback (e) }
+                        onChange={setNameCallback}
                         className={inputClass}
-                        onKeyDown={(e) => onEnter(e)}
+                        onKeyDown={onEnter}
                         onBlur={onBlur}
                     />
                     <div id={'hw3-error'} className={s.error}>
