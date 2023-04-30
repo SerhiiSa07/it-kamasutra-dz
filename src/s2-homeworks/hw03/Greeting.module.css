@@ -13,7 +13,6 @@
 }
 .error {
     color: red;
-
 }
 
 .input {
@@ -21,7 +20,7 @@
 }
 
 .inputClass:focus {
-    border: 1px solid #d30373;
+    border: 1px solid #68d303;
     border-radius: 10px;
 }
 
