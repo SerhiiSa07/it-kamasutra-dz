@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .inputs {
@@ -9,11 +10,83 @@
     flex-direction: column;
     gap: 48px;
 }
+.input{
 
+}
 .buttons {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    padding: 20px;
+}
+
+.button_default{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 24px;
+    width: 132px;
+    height: 30px;
+    background: #0066CC;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.button_red{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #CC1439;
+    border-radius: 3px;
+    width: 129px;
+    height: 30px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.button_desablet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+    width: 133px;
+    height: 30px;
+    color: #002E5C;
+    background: #004D99;
+    opacity: 0.5;
+    border-radius: 3px;
+}
+.button_additionally{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+    width: 176px;
+    height: 30px;
+    color: #0066CC;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
+}
+
+.checkboxes_Hometask{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #0066CC;
 }
 
 .checkboxes {
