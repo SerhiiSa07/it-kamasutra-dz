@@ -1,36 +1,105 @@
 .button {
+
 }
 
 .disabled {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+    width: 133px;
+    height: 30px;
+    color: #002E5C;
+    background:#004D99;
+    opacity: 0.5;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+
 }
 
 .secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+    font-weight: 600;
+    width: 176px;
+    height: 30px;
+    color: #0066CC;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
+    font-family: 'Montserrat';
 }
 
 .default {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 24px;
+    width: 132px;
+    height: 30px;
+    background: #0066CC;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Montserrat';
 }
 
 .red {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #CC1439;
+    border-radius: 3px;
+    width: 129px;
+    height: 30px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat';
 }
 
 .default:hover {
+    cursor: pointer;
+    background-color: #174fbb;
+    transition: background-color 1s;
 }
 
 .red:hover {
+    cursor: pointer;
+    background-color:#8B0000;
+    transition: background-color 1s;
 }
 
 .secondary:hover {
+    cursor: pointer;
+    background-color:#cfe3d0;
+    transition: background-color 1s;
 }
 
-
 .default:active {
+    background-color:#6600CC;
 }
 
 .secondary:active {
+    background-color:#33CC99;
 }
 
 .red:active {
+    background-color:#FF3300;
 }
 
 .button:disabled {
+    background-color:#004D99;
 }

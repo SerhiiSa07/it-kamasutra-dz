@@ -14,16 +14,15 @@ const Stand = () => {
         <div id={'hw4-stand'} className={s.stand}>
             <div className={s.inputs}>
                 {/*совместим со старым кодом:*/}
-                <div>
+                <div className={s.input}>
                     <SuperInputText
                         id={'hw4-super-input-like-old'}
-                        className={s.input}
                         value={stateForAllInputs}
                         onChange={(e) => setValue(e.currentTarget.value)}
                     />
                 </div>
                 {/*инпут с ошибкой:*/}
-                <div>
+                <div className={s.input}>
                     <SuperInputText
                         id={'hw4-super-input-with-error'}
                         value={stateForAllInputs}
@@ -40,52 +39,46 @@ const Stand = () => {
                     />
                 </div>
             </div>
-
-            <div className={s.buttons}>
+            <div className={s.button}>
                 {/*обычная кнопка:*/}
-                <div>
+                <div className={s.default}>
                     <SuperButton id={'hw4-super-button-default'}
-                                 className={s.button_default}>
-
+                                 >
                         Дефолтная
                     </SuperButton>
                 </div>
                 {/*красная кнопка:*/}
-                <div>
+                <div className={s.red}>
                     <SuperButton id={'hw4-super-button-red'}
-                                 className={s.button_red}
-                                 xType={'red'}>
+                                 xType={'red'}
+                    >
                         Опасность
                     </SuperButton>
                 </div>
                 {/*задизэйбленная кнопка:*/}
-                <div>
+                <div className={s.disabled}>
                     <SuperButton
                         id={'hw4-super-button-disabled'}
                         xType={'red'}
                         disabled
-                        className={s.button_desablet}
                     >
                         Не активна
                     </SuperButton>
                 </div>
                 {/*задизэйбленная кнопка:*/}
-                <div>
+                <div className={s.secondary}>
                     <SuperButton
                         id={'hw4-super-button-secondary'}
                         xType={'secondary'}
-                        className={s.button_additionally}
                     >
                         Дополнительная
                     </SuperButton>
                 </div>
             </div>
-
             <div className={s.checkboxes}>
                 {/*чекбокс с текстом:*/}
                 <div>
-                    <SuperCheckbox
-                        id={'hw4-super-checkbox-with-text'}
+                    <SuperCheckbox id={'hw4-super-checkbox-with-text'}
                         checked={stateForAllCheckboxes}
                         onChangeChecked={setChecked}
                         className={s.checkboxes_Hometask}
