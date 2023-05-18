@@ -1,25 +1,44 @@
 .sidebar {
+    display: flex;
+    padding-left: 25px;
 }
 
 .sidebar.open {
+
 }
 
 .background {
+
 }
 
 .nav {
+
 }
 
 .nav a {
+    text-decoration: none;
+    color: #0e2431;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
 }
 
 .nav a:hover {
+    font-weight: bolder;
 }
 
 .nav a.active {
+    text-decoration: none;
+    color: #0e2431;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
 }
+
 .close {
+
 }
 
 .close img {
+
 }
