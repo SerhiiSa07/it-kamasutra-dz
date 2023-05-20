@@ -1,30 +1,54 @@
 .sidebar {
-    display: flex;
-    padding-left: 25px;
+    position: fixed;
+    max-width: 1280px;
+    background-color: #5c44ff;
+
 }
 
 .sidebar.open {
+
+    transform: translate(100%);
 
 }
 
 .background {
 
+background-color: red;
+
 }
 
 .nav {
+
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    background-color: yellow;
+    transform: translateY(0%);
+    width: 317px;
+    height: 100%;
+    padding-left: 70px;
+    padding-top: 63px;
 
 }
 
 .nav a {
     text-decoration: none;
-    color: #0e2431;
-    font-weight: 500;
-    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 600;
+    font-size: 22px;
     padding: 0.7rem;
+    line-height: 27px;
+
 }
 
 .nav a:hover {
-    font-weight: bolder;
+    text-decoration-line: underline;
+    color: #0059B2;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    top: 0;
+
 }
 
 .nav a.active {
@@ -33,12 +57,20 @@
     font-weight: 500;
     font-size: 1.2rem;
     padding: 0.7rem;
+
 }
 
 .close {
 
+
 }
 
 .close img {
-
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 272px;
+    right: 24px;
+    top: 24.98%;
+    bottom: 24.98%;
 }
