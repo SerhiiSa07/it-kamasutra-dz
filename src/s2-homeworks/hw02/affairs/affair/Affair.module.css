@@ -1,25 +1,23 @@
 .affair {
-    display: flex;
-    align-items: center;
-    width: 185px;
+    display: inline-block;
+    width:185px;
+    height: 40px;
     border: 1.5px solid var(--color);
     border-radius: 20px;
     box-shadow: 0px 0px 2px 2px #2259c3;
-    margin: 20px;
+    margin: 12px;
 }
 
 .name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    text-align: center;
+
     width: 145px;
     height: 37px;
 }
 
 .closeButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     width: 40px;
     height: 37px;
     background-color: transparent;
