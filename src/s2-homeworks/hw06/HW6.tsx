@@ -19,7 +19,7 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
-
+        setValue('')
     }
 
     return (
@@ -41,9 +41,12 @@ const HW6 = () => {
                 </div>
 
                 <div className={s.buttonsContainer}>
+                    <div className={s.superButtonOne}>
                     <SuperButton id={'hw6-save'} onClick={save}>
                         Save to ls
                     </SuperButton>
+                    </div>
+                    <div className={s.superButtonTwo}>
                     <SuperButton
                         id={'hw6-restore'}
                         onClick={restore}
@@ -51,6 +54,7 @@ const HW6 = () => {
                     >
                         Get from ls
                     </SuperButton>
+                    </div>
                 </div>
             </div>
         </div>

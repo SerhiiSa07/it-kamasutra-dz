@@ -1,5 +1,17 @@
 .buttonsContainer {
+    display: flex;
+    padding: 20px;
+}
+
+.superButtonOne{
+
+}
+
+.superButtonTwo{
+
 }
 
 .editableSpanContainer {
+    display: inline-block;
+    width: 100px;
 }
