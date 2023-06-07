@@ -21,11 +21,9 @@ const HW6 = () => {
         // делают студенты
         setValue(restoreState<string>('hw6-editable-span-value', ''))
     }
-
     return (
         <div id={'hw6'}>
             <div className={s2.hwTitle}>Homework #6</div>
-
             {/*демонстрация возможностей компоненты:*/}
             <div className={s2.hw}>
                 <div className={s.editableSpanContainer}>
@@ -39,7 +37,6 @@ const HW6 = () => {
                         }}
                     />
                 </div>
-
                 <div className={s.buttonsContainer}>
                     <div className={s.superButtonOne}>
                     <SuperButton id={'hw6-save'} onClick={save}>
