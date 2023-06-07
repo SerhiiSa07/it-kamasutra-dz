@@ -30,22 +30,21 @@ const HW6 = () => {
             <div className={s2.hw}>
                 <div className={s.editableSpanContainer}>
                     <SuperEditableSpan
-                        id={'hw6-span-editable-input'}
+                        id={'hw6-spanable-input'}
                         value={value}
                         onChangeText={setValue}
                         spanProps={{
                             id: 'hw6-editable-span',
-                            defaultText: 'Edit text',
+                            defaultText: 'enter text...',
                         }}
                     />
                 </div>
                 <div className={s.buttonsContainer}>
-                    <div className={s.superButtonOne}>
                     <SuperButton id={'hw6-save'} onClick={save}>
                         Save to ls
                     </SuperButton>
-                    </div>
-                    <div className={s.superButtonTwo}>
+
+
                     <SuperButton
                         id={'hw6-restore'}
                         onClick={restore}
@@ -53,7 +52,6 @@ const HW6 = () => {
                     >
                         Get from ls
                     </SuperButton>
-                    </div>
                 </div>
             </div>
         </div>
