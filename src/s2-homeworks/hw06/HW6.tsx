@@ -57,5 +57,4 @@ const HW6 = () => {
         </div>
     )
 }
-
 export default HW6
