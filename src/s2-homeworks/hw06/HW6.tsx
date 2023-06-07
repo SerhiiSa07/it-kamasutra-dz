@@ -36,6 +36,7 @@ const HW6 = () => {
                             defaultText: 'Edit text',
                         }}
                     />
+
                 </div>
                 <div className={s.buttonsContainer}>
                     <div className={s.superButtonOne}>
