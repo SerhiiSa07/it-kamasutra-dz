@@ -1,9 +1,16 @@
 .select {
+    height: 24px;
+    width: 165px;
+    text-align: left;
+    padding-left: 10px;
 }
 
 .select:focus {
+    cursor: pointer;
+    background-color: #7FFFD4;
 }
 
 
 .option:hover {
+
 }
