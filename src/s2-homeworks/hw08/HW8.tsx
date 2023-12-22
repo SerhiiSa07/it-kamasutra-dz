@@ -19,7 +19,7 @@ export type UserType = {
 
 }
 
-const initialPeople: UserType[] = [
+export const initialPeople: UserType[] = [
 
     // студенты могут поменять имя/возраст/количество объектов, _id должны быть целочисленные
 
