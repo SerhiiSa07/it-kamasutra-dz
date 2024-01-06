@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/it-kamasutra-dz/static/css/main.7dd11a99.css",
-    "main.js": "/it-kamasutra-dz/static/js/main.b1058f55.js",
+    "main.css": "/it-kamasutra-dz/static/css/main.3924c9ca.css",
+    "main.js": "/it-kamasutra-dz/static/js/main.63d7b337.js",
     "static/js/787.04a14975.chunk.js": "/it-kamasutra-dz/static/js/787.04a14975.chunk.js",
+    "static/media/load-8510_128.gif": "/it-kamasutra-dz/static/media/load-8510_128.7d7fb1794cfabc1ee605.gif",
     "static/media/1319832745_0_6065c_b70de565_l.jpg": "/it-kamasutra-dz/static/media/1319832745_0_6065c_b70de565_l.dda43170970179a26080.jpg",
     "static/media/404.svg": "/it-kamasutra-dz/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/closeOutline.svg": "/it-kamasutra-dz/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "index.html": "/it-kamasutra-dz/index.html",
     "static/media/checked.svg": "/it-kamasutra-dz/static/media/checked.b75ca55e8759862b4083.svg",
     "static/media/burger.svg": "/it-kamasutra-dz/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.7dd11a99.css.map": "/it-kamasutra-dz/static/css/main.7dd11a99.css.map",
-    "main.b1058f55.js.map": "/it-kamasutra-dz/static/js/main.b1058f55.js.map",
+    "main.3924c9ca.css.map": "/it-kamasutra-dz/static/css/main.3924c9ca.css.map",
+    "main.63d7b337.js.map": "/it-kamasutra-dz/static/js/main.63d7b337.js.map",
     "787.04a14975.chunk.js.map": "/it-kamasutra-dz/static/js/787.04a14975.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dd11a99.css",
-    "static/js/main.b1058f55.js"
+    "static/css/main.3924c9ca.css",
+    "static/js/main.63d7b337.js"
   ]
 }
